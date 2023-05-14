@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "the-lama-shop",
+  "name": "smartshelf",
   "builds": [
     {
       "src": "./index.js",

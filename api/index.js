@@ -28,6 +28,14 @@ app.use('/api/carts', cartRouter);
 app.use('/api/orders', orderRouter);
 app.use('/api/checkout', stripeRouter);
 
+app.use('/api/test', (req, res) => {
+  try {
+    res.status(200).json("Backend running")
+  } catch (err) {
+    res.status(500).json("Server error")
+  }
+})
+
 app.listen(process.env.PORT || 5000, () => {
   console.log('server is running');
 });
