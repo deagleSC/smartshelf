@@ -25,21 +25,21 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: '/6.jpeg',
-    title: 'SHIRT STYLE!',
-    category: 'women',
+    img: 'https://images.pexels.com/photos/714698/pexels-photo-714698.jpeg',
+    title: 'PHYSICS',
+    category: 'Physics',
   },
   {
     id: 2,
-    img: '/4.jpeg',
-    title: 'LOUNGEWEAR LOVE',
-    category: 'coats',
+    img: 'https://images.pexels.com/photos/3825527/pexels-photo-3825527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'CHEMISTRY',
+    category: 'Chemistry',
   },
   {
     id: 3,
-    img: '/5.jpeg',
-    title: 'LIGHT JACKETS',
-    category: 'jeans',
+    img: 'https://images.pexels.com/photos/220301/pexels-photo-220301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'MATHS',
+    category: 'Maths',
   },
 ];
 

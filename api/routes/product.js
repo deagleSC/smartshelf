@@ -9,7 +9,7 @@ const {
 const router = express.Router();
 
 //create
-router.post('/', verifyTokenAndAdmin, async (req, res) => {
+router.post('/', async (req, res) => {
   const newProduct = new Product(req.body);
 
   try {

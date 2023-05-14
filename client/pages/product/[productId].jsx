@@ -92,8 +92,8 @@ const Product = () => {
           <div className="flex justify-between sm:w-1/2 my-[30px] space-x-3 ">
             {/* filter */}
             <div className="flex items-center space-x-2">
-              <span className="text-[20px] font-extralight ">Color</span>
-              {product.color?.map((c) => (
+              {/* <span className="text-[20px] font-extralight ">Color</span> */}
+              {/* {product.color?.map((c) => (
                 <div
                   key={c}
                   onClick={() => setColor(c)}
@@ -101,12 +101,12 @@ const Product = () => {
                     color === c && 'ring border-0'
                   } ${colorClass(c)} mx-[5px] cursor-pointer `}
                 ></div>
-              ))}
+              ))} */}
             </div>
 
             <div className="flex items-center ">
-              <span className="text-[20px] font-extralight ">Size</span>
-              <select
+              {/* <span className="text-[20px] font-extralight ">Size</span> */}
+              {/* <select
                 onChange={(e) => setSize(e.target.value)}
                 className="ml-[10px] p-[5px] outline-none "
               >
@@ -116,7 +116,7 @@ const Product = () => {
                     {s.toUpperCase()}
                   </option>
                 ))}
-              </select>
+              </select> */}
             </div>
           </div>
 

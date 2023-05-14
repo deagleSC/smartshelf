@@ -56,7 +56,7 @@ const Newsletter = () => {
         />
         <button
           onClick={handleSubmit}
-          className="flex-[1] bg-[teal] text-white "
+          className="flex-[1] bg-[green] text-white "
         >
           <Send />
         </button>

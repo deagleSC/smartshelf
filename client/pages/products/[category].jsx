@@ -28,7 +28,7 @@ const ProductList = () => {
       <h1 className="m-[20px] font-semibold text-2xl ">{category}</h1>
       <div className="flex justify-between ">
         {/* filter */}
-        <div className="mx-[20px] sm:m-[20px] flex flex-col sm:block ">
+        {/* <div className="mx-[20px] sm:m-[20px] flex flex-col sm:block ">
           <span className="text-[20px] sm:mr-[20px] font-semibold ">
             Filter Products:
           </span>
@@ -83,7 +83,7 @@ const ProductList = () => {
               XL
             </option>
           </select>
-        </div>
+        </div> */}
         <div className="mx-[20px] sm:m-[20px] flex flex-col sm:block ">
           <span className="text-[20px] sm:mr-[20px] font-semibold ">
             Sort Products:

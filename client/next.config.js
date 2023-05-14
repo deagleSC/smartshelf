@@ -11,7 +11,10 @@ module.exports = {
       'www.vintageindustries.nl',
       'www.pngarts.com',
       'avatars.githubusercontent.com',
-      'firebasestorage.googleapis.com'
+      'firebasestorage.googleapis.com',
+      'bc-img.s3.ap-south-1.amazonaws.com',
+      'kitabbuddy.com',
+      'm.media-amazon.com'
     ],
   },
 };

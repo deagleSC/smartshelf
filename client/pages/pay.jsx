@@ -27,7 +27,7 @@ const Pay = () => {
   return (
     <div className="flex justify-center items-center h-screen ">
       <StripeCheckout
-        name="Lama Shop"
+        name="Smartshelf"
         image="https://avatars.githubusercontent.com/u/1486366?v=4"
         billingAddress
         shippingAddress

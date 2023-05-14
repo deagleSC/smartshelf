@@ -26,12 +26,12 @@ const Product = ({ item }) => {
         flex items-center justify-center opacity-0 group-hover:opacity-100 transition
         duration-500 ease-in-out "
       >
-        <div
+        {/* <div
           className="w-[40px] h-[40px] rounded-full bg-white flex items-center justify-center
           m-[10px] hover:bg-[#e9f5f5] transform hover:scale-110 transition duration-500 cursor-pointer "
-        >
-          <ShoppingCartOutlined />
-        </div>
+        > */}
+          {/* <ShoppingCartOutlined /> */}
+        {/* </div> */}
         <div
           className="w-[40px] h-[40px] rounded-full bg-white flex items-center justify-center
           m-[10px] hover:bg-[#e9f5f5] transform hover:scale-110 transition duration-500 cursor-pointer "
@@ -40,12 +40,12 @@ const Product = ({ item }) => {
             <SearchOutlined />
           </Link>
         </div>
-        <div
+        {/* <div
           className="w-[40px] h-[40px] rounded-full bg-white flex items-center justify-center
           m-[10px] hover:bg-[#e9f5f5] transform hover:scale-110 transition duration-500 cursor-pointer "
         >
           <FavoriteBorderOutlined />
-        </div>
+        </div> */}
       </div>
     </div>
   );

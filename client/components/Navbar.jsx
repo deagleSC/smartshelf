@@ -22,19 +22,19 @@ const Navbar = () => {
           <span className="text-[14px] cursor-pointer hidden sm:inline">
             EN
           </span>
-          <div className="border flex items-center ml-[25px] p-[5px] ">
+          {/* <div className="border flex items-center ml-[25px] p-[5px] ">
             <input
               placeholder="search"
               type="text"
               className="outline-none w-[50px] sm:w-auto "
             />
             <Search className="text-gray-400 text-[16px] " />
-          </div>
+          </div> */}
         </div>
         <div className="flex-1 text-center">
           <Link href="/">
             <h1 className="font-bold text-[24px] sm:text-3xl cursor-pointer ">
-              LAMA.
+              SMARTSHELF.
             </h1>
           </Link>
         </div>
