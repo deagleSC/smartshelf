@@ -106,7 +106,7 @@ const ProductList = () => {
       </div>
       <Products category={category} filters={filters} sort={sort} />
       <Newsletter />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

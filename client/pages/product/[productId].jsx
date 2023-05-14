@@ -164,7 +164,7 @@ const Product = () => {
       </div>
 
       <Newsletter />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
