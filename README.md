@@ -1,6 +1,6 @@
-# The Lama Shop
+# Smartshelf
 
-<!-- ### [Live Demo](https://the-lama-shop.vercel.app/) -->
+### [Live Demo](https://smartshelf-frontend.vercel.app)
 
 An ecommerce platform made with Next.js, Tailwind Css, Redux, Stripe, Email Js, Material Ui for the frontend and Node Js, Express, MongoDb, JWT for the backend.
 <!-- It also has an [Admin](https://lama-shop-admin.vercel.app/) Panel to edit and add products on the store. -->
